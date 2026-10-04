@@ -1,0 +1,41 @@
+event_order,event,stage,winner,loser,winner_maps,loser_maps,best_of,score_status
+1,Americas Kickoff,Upper R2,G2,100T,2,1,3,known
+2,Masters Santiago,Grand Final,NS,PRX,3,0,5,known
+3,Americas Stage 1,Playoffs UR1,G2,100T,2,0,3,known
+4,Masters London,Swiss/Bracket,XLG,G2,2,1,3,known
+4,Masters London,Bracket,VIT,G2,2,0,3,known
+4,Masters London,Bracket,VIT,TH,,,3,winner_only
+4,Masters London,Bracket,LEV,VIT,,,3,winner_only
+4,Masters London,Grand Final,LEV,PRX,3,2,5,known
+5,Esports World Cup,Quarterfinal,NS,VIT,2,1,3,known
+5,Esports World Cup,Bracket,100T,MIBR,,,3,winner_only
+5,Esports World Cup,Bracket,100T,NS,,,3,winner_only
+5,Esports World Cup,Grand Final,100T,NRG,3,1,5,known
+6,Americas Stage 2,Group W1,100T,G2,2,1,3,known
+6,Americas Stage 2,Playoffs,100T,LEV,2,0,3,known
+6,Americas Stage 2,Upper Final,100T,NRG,,,3,winner_only
+6,Americas Stage 2,Lower Bracket,LOUD,G2,,,3,winner_only
+6,Americas Stage 2,Lower Final,LOUD,NRG,,,5,winner_only
+6,Americas Stage 2,Grand Final,100T,LOUD,3,2,5,known
+6,Pacific Stage 2,Lower Final,GE,T1,3,1,5,known
+6,Pacific Stage 2,Grand Final,GE,NS,3,2,5,known
+7,Champions Shanghai,Group A Opening,100T,T1,2,0,3,known
+7,Champions Shanghai,Group A Opening,FUT,JDG,,,3,winner_only
+7,Champions Shanghai,Group A Winners,100T,FUT,2,0,3,known
+7,Champions Shanghai,Group A Elimination,T1,JDG,2,1,3,known
+7,Champions Shanghai,Group A Decider,T1,FUT,2,0,3,known
+7,Champions Shanghai,Group B Opening,VIT,GE,2,1,3,known
+7,Champions Shanghai,Group B Opening,LOUD,EDG,2,0,3,known
+7,Champions Shanghai,Group B Winners,VIT,LOUD,2,0,3,known
+7,Champions Shanghai,Group B Elimination,GE,EDG,,,3,winner_only
+7,Champions Shanghai,Group B Decider,LOUD,GE,2,0,3,known
+7,Champions Shanghai,Group C Opening,PRX,TL,2,1,3,known
+7,Champions Shanghai,Group C Opening,G2,TYLOO,2,0,3,known
+7,Champions Shanghai,Group C Winners,PRX,G2,2,1,3,known
+7,Champions Shanghai,Group C Elimination,TL,TYLOO,,,3,winner_only
+7,Champions Shanghai,Group C Decider,G2,TL,2,0,3,known
+7,Champions Shanghai,Group D Opening,NRG,NS,2,0,3,known
+7,Champions Shanghai,Group D Opening,KC,XLG,,,3,winner_only
+7,Champions Shanghai,Group D Winners,NRG,KC,2,1,3,known
+7,Champions Shanghai,Group D Elimination,NS,XLG,2,0,3,known
+7,Champions Shanghai,Group D Decider,NS,KC,2,1,3,known
