@@ -8,3 +8,8 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Scraper cache and intermediate files (rebuild with `vct scrape`)
+data/raw/
+data/interim/
+data/*.log

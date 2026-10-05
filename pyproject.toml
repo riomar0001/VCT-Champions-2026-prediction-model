@@ -9,11 +9,14 @@ authors = [
 requires-python = ">=3.14"
 dependencies = [
     "beautifulsoup4>=4.15.0",
+    "lightgbm>=4.7.0",
     "matplotlib>=3.11.2",
     "numpy>=2.5.3",
     "pandas>=3.0.6",
+    "pyarrow>=25.0.1",
     "requests>=2.34.2",
     "scikit-learn>=1.9.1",
+    "scipy>=1.18.1",
 ]
 
 [project.scripts]
@@ -22,3 +25,11 @@ vct = "vct:main"
 [build-system]
 requires = ["uv_build>=0.12.1,<0.13.0"]
 build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.4.0",
+    "jinja2>=3.1.6",
+    "nbclient>=0.11.0",
+    "nbformat>=5.11.1",
+]

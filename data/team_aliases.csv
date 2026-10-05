@@ -1,0 +1,160 @@
+alias,team_id,code,name,source
+100 Thieves,120,100T,100 Thieves,auto
+100T,120,100T,100 Thieves,auto
+2G,15072,2G,2Game Esports,auto
+2Game Esports,15072,2G,2Game Esports,auto
+AG,1119,AG,All Gamers,auto
+AG.AL (All Gamers),1119,AG,All Gamers,auto
+All Gamers,1119,AG,All Gamers,auto
+ALP,19707,ALP,Team Alpha,auto
+Team Alpha,19707,ALP,Team Alpha,auto
+APK,11479,APK,Apeks,auto
+Apeks,11479,APK,Apeks,auto
+A Team,20603,AT,A Team,auto
+AT,20603,AT,A Team,auto
+BBL,397,BBL,BBL Esports,auto
+BBL Esports,397,BBL,BBL Esports,auto
+BLG,12010,BLG,Guangzhou Huadu Bilibili Gaming (Bilibili Gaming),auto
+Bilibili Gaming,12010,BLG,Guangzhou Huadu Bilibili Gaming (Bilibili Gaming),auto
+Guangzhou Huadu Bilibili Gaming (Bilibili Gaming),12010,BLG,Guangzhou Huadu Bilibili Gaming (Bilibili Gaming),auto
+BME,466,BME,BOOM Esports,auto
+BOOM Esports,466,BME,BOOM Esports,auto
+BESTIA,22142,BST,BESTIA,auto
+BST,22142,BST,BESTIA,auto
+C9,188,C9,Cloud9,auto
+Cloud9,188,C9,Cloud9,auto
+CJMZ,19688,CJMZ,Precise Defeat,auto
+Precise Defeat,19688,CJMZ,Precise Defeat,auto
+DFM,278,DFM,DetonatioN FocusMe,auto
+DetonatioN FocusMe,278,DFM,DetonatioN FocusMe,auto
+DRG,11981,DRG,Dragon Ranger Gaming,auto
+Dragon Ranger Gaming,11981,DRG,Dragon Ranger Gaming,auto
+EDG,1120,EDG,EDward Gaming,auto
+EDward Gaming,1120,EDG,EDward Gaming,auto
+EF,6392,EF,Eternal Fire,auto
+Eternal Fire,6392,EF,Eternal Fire,auto
+EG,5248,EG,Evil Geniuses,auto
+Evil Geniuses,5248,EG,Evil Geniuses,auto
+EMEA,19722,EMEA,Team EMEA,auto
+Team EMEA,19722,EMEA,Team EMEA,auto
+ENVY,427,ENVY,ENVY,auto
+EP,876,EP,Enterprise Esports,auto
+Enterprise Esports,876,EP,Enterprise Esports,auto
+FF,20085,FF,Fire Flux Esports,auto
+Fire Flux Esports,20085,FF,Fire Flux Esports,auto
+FNATIC,2593,FNC,FNATIC,auto
+FNC,2593,FNC,FNATIC,auto
+FPX,11328,FPX,FunPlus Phoenix,auto
+FunPlus Phoenix,11328,FPX,FunPlus Phoenix,auto
+FRA,19721,FRA,Team France,auto
+Team France,19721,FRA,Team France,auto
+FS,4050,FS,FULL SENSE,auto
+FULL SENSE,4050,FS,FULL SENSE,auto
+FUR,2406,FUR,FURIA,auto
+FURIA,2406,FUR,FURIA,auto
+FUT,1184,FUT,FUT Esports,auto
+FUT Esports,1184,FUT,FUT Esports,auto
+FX,23141,FX,Fluxo W7M,auto
+Fluxo W7M,23141,FX,Fluxo W7M,auto
+G2,11058,G2,G2 Esports,auto
+G2 Esports,11058,G2,G2 Esports,auto
+GE,918,GE,Global Esports,auto
+Global Esports,918,GE,Global Esports,auto
+GEN,17,GEN,Gen.G,auto
+Gen.G,17,GEN,Gen.G,auto
+GOA,19507,GOA,Glory Once Again,auto
+Glory Once Again,19507,GOA,Glory Once Again,auto
+GIANTX,14419,GX,GIANTX,auto
+GX,14419,GX,GIANTX,auto
+HS,19687,HS,Pure Aim,auto
+Pure Aim,19687,HS,Pure Aim,auto
+INTL,15315,INTL,Team International,auto
+Team International,15315,INTL,Team International,auto
+JD Gaming,13576,JDG,JD Gaming,auto
+JD Mall JDG Esports (JD Gaming),13576,JDG,JD Gaming,auto
+JDG,13576,JDG,JD Gaming,auto
+JL,11232,JL,Joblife,auto
+Joblife,11232,JL,Joblife,auto
+KBG,12784,KBG,KeepBest Gaming,auto
+KeepBest Gaming,12784,KBG,KeepBest Gaming,auto
+KC,8877,KC,Karmine Corp,auto
+Karmine Corp,8877,KC,Karmine Corp,auto
+KIWOOM DRX,8185,KRX,KIWOOM DRX,auto
+KRX,8185,KRX,KIWOOM DRX,auto
+KRÜ,2355,KRÜ,KRÜ Esports,auto
+KRÜ Esports,2355,KRÜ,KRÜ Esports,auto
+VISA KRÜ (KRÜ Esports),2355,KRÜ,KRÜ Esports,auto
+LEV,2359,LEV,LEVIATÁN,auto
+LEVIATÁN,2359,LEV,LEVIATÁN,auto
+LOUD,6961,LOUD,LOUD,auto
+Gentle Mates,12694,M8,Gentle Mates,auto
+M8,12694,M8,Gentle Mates,auto
+M80,11001,M80,M80,auto
+MIBR,7386,MIBR,MIBR,auto
+MIBR.LOS (MIBR),7386,MIBR,MIBR,auto
+KOI,7035,MKOI,Movistar KOI (KOI),auto
+MKOI,7035,MKOI,Movistar KOI (KOI),auto
+Movistar KOI (KOI),7035,MKOI,Movistar KOI (KOI),auto
+NAVI,4915,NAVI,Natus Vincere,auto
+Natus Vincere,4915,NAVI,Natus Vincere,auto
+NOVA,12064,NOVA,Nova Esports,auto
+Nova Esports,12064,NOVA,Nova Esports,auto
+NRG,1034,NRG,NRG,auto
+NS,11060,NS,Nongshim RedForce,auto
+Nongshim RedForce,11060,NS,Nongshim RedForce,auto
+OME,19708,OME,Team Omega,auto
+Team Omega,19708,OME,Team Omega,auto
+ONG,19189,ONG,ONSIDE GAMING,auto
+ONSIDE GAMING,19189,ONG,ONSIDE GAMING,auto
+PCF,3478,PCF,PCIFIC Esports,auto
+PCIFIC Esports,3478,PCF,PCIFIC Esports,auto
+PRX,624,PRX,Paper Rex,auto
+Paper Rex,624,PRX,Paper Rex,auto
+QT DIG∞,18299,QTD,QT DIG∞,auto
+QTD,18299,QTD,QT DIG∞,auto
+RRQ,878,RRQ,Rex Regum Qeon,auto
+Rex Regum Qeon,878,RRQ,Rex Regum Qeon,auto
+SEN,2,SEN,Sentinels,auto
+Sentinels,2,SEN,Sentinels,auto
+Eintracht Frankfurt,14478,SGE,Eintracht Frankfurt,auto
+SGE,14478,SGE,Eintracht Frankfurt,auto
+SP,623,SP,Sharper Esports,auto
+Sharper Esports,623,SP,Sharper Esports,auto
+T1,14,T1,T1,auto
+TE,12685,TE,Trace Esports,auto
+Trace Esports,12685,TE,Trace Esports,auto
+TEC,14137,TEC,Wuxi Titan Esports Club (Titan Esports Club),auto
+Titan Esports Club,14137,TEC,Wuxi Titan Esports Club (Titan Esports Club),auto
+Wuxi Titan Esports Club (Titan Esports Club),14137,TEC,Wuxi Titan Esports Club (Titan Esports Club),auto
+TH,1001,TH,Team Heretics,auto
+Team Heretics,1001,TH,Team Heretics,auto
+THAi,17715,THAi,Team Thailand,auto
+Team Thailand,17715,THAi,Team Thailand,auto
+TL,474,TL,Team Liquid,auto
+Team Liquid,474,TL,Team Liquid,auto
+TALON,8304,TLN,TALON,auto
+TLN,8304,TLN,TALON,auto
+TS,6199,TS,Team Secret,auto
+Team Secret,6199,TS,Team Secret,auto
+TYL,731,TYL,TYLOO,auto
+TYLOO,731,TYL,TYLOO,auto
+Team,19008,Team,Team Toast,auto
+Team Toast,19008,Team,Team Toast,auto
+ULF,18019,ULF,ULF Esports,auto
+ULF Esports,18019,ULF,ULF Esports,auto
+Team Vitality,2059,VIT,Team Vitality,auto
+VIT,2059,VIT,Team Vitality,auto
+VARREL,11229,VL,VARREL,auto
+VL,11229,VL,VARREL,auto
+WOL,13790,WOL,Wolves Esports,auto
+Wolves Esports,13790,WOL,Wolves Esports,auto
+Team World,19550,WOR,Team World,auto
+WOR,19550,WOR,Team World,auto
+XIP,17167,XIP,Xipto Esports,auto
+Xipto Esports,17167,XIP,Xipto Esports,auto
+XLG,13581,XLG,Xi Lai Gaming,auto
+Xi Lai Gaming,13581,XLG,Xi Lai Gaming,auto
+ZETA,5448,ZETA,ZETA DIVISION,auto
+ZETA DIVISION,5448,ZETA,ZETA DIVISION,auto
+Team tarik,12065,tarik,Team tarik,auto
+tarik,12065,tarik,Team tarik,auto
