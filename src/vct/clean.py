@@ -1,11 +1,11 @@
 """Turn scraped tables into the processed dataset, and validate it.
 
-Outputs (data/processed/):
-    series.parquet   one row per completed series
-    maps.parquet     one row per played map (schema from the improvement plan)
-    players.parquet  one row per player per map
-    vetoes.parquet   one row per veto step
-    upcoming.parquet scheduled series with known teams, plus market odds
+Outputs (data/processed/), each written as both .parquet and .csv:
+    series   one row per completed series
+    maps     one row per played map (schema from the improvement plan)
+    players  one row per player per map
+    vetoes   one row per veto step
+    upcoming scheduled series with known teams, plus market odds
 """
 
 import numpy as np
@@ -295,6 +295,7 @@ def build(write=True, log=print):
             ("upcoming", upcoming),
         ]:
             df.to_parquet(config.PROCESSED / f"{name}.parquet", index=False)
+            write_csv(df, config.PROCESSED / f"{name}.csv")
     log(
         f"{len(series)} series, {len(m)} maps, {series[['team_a', 'team_b']].stack().nunique()} teams; "
         f"market odds on {series.p_market.notna().sum()} series (overround {overround:.3f})"
@@ -384,6 +385,18 @@ def validate(series, maps, aliases, raw_series=None):
         series.match_id[series.team_a.isna() | series.team_b.isna()],
     )
     return pd.DataFrame(out, columns=["severity", "check", "match_id", "detail"])
+
+
+def write_csv(df, path):
+    """Same table as the parquet, with date columns as YYYY-MM-DD where there is no time."""
+    out = df.copy()
+    for col in out.columns[out.dtypes.map(pd.api.types.is_datetime64_any_dtype)]:
+        s = out[col]
+        known = s.dropna()
+        midnight = (known.dt.normalize() == known).all()
+        fmt = "%Y-%m-%d" if midnight else "%Y-%m-%d %H:%M:%S"
+        out[col] = s.dt.strftime(fmt)
+    out.to_csv(path, index=False)
 
 
 def load(name):

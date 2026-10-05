@@ -15,7 +15,7 @@ Then open `notebooks/vct_champions_2026_predictor.ipynb` for title odds and the 
 | Command | What it does |
 |---|---|
 | `uv run vct scrape` | Downloads every match of the events in `src/vct/config.py`. Pages are cached in `data/raw/` (with `index.csv` recording each URL) and requests are spaced at least 1.5 s apart. Matches that are still upcoming or live are re-fetched on the next run. |
-| `uv run vct build` | Resolves team names through `data/team_aliases.csv`, assigns regions, writes `data/processed/*.parquet`, and runs the data checks. Fails if any check is an error. |
+| `uv run vct build` | Resolves team names through `data/team_aliases.csv`, assigns regions, writes `data/processed/*.parquet` plus a matching `*.csv` of each table, and runs the data checks. Fails if any check is an error. |
 | `uv run vct experiments` | Runs the time-ordered backtests and writes `experiments.csv`, `data/processed/best_model.pkl` and `holdout_predictions.pkl`. |
 
 ## Layout
@@ -24,7 +24,7 @@ Then open `notebooks/vct_champions_2026_predictor.ipynb` for title odds and the 
 data/
   raw/                 cached VLR HTML (git-ignored)
   interim/             parsed tables straight from the scraper (git-ignored)
-  processed/           series, maps, players, vetoes, upcoming (.parquet) + backtest outputs
+  processed/           series, maps, players, vetoes, upcoming (.parquet + .csv) + backtest outputs
   team_aliases.csv     every spelling -> one team code; rows with source=manual survive rebuilds
   legacy/              the original hand-compiled 40-series CSV
 src/vct/
@@ -52,6 +52,11 @@ rounds_a, rounds_b, y, picked_by, best_of, lan, international`
 probability for team A (median across books, margin removed). On finished matches VLR shows
 only the winner's price, so the margin is removed using the median overround seen on matches
 where both prices are shown.
+
+Every table is written twice: `*.parquet` for the pipeline and an identical `*.csv` for anything
+else. The code reads the parquet. Two notes for CSV readers: `patch` is a string (`"10.10"`, not
+`10.1`), and `pd.read_csv(..., float_precision="round_trip")` is needed to get `p_market` back to
+the last bit — the CSV text is exact, but the default parser rounds it by one ulp.
 
 Data checks (`clean.validate`): duplicate matches/maps, map wins that don't add up to the
 series score, series scores inconsistent with best-of, dates out of range, unknown teams
